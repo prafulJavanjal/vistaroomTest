@@ -2,13 +2,13 @@
 REQUIREMNT
 ------------
 
-Nginx		: Application server 
-PHP			: Server side language 
-CI			: Codeignator freamwork
-MySql 		: Dataaseused for store provide json data
-HTML & CSS	: Front end changes
-JS 			: Scripting language 
-Jquery 		: Use JS lib for AJAX and other operations on the frontend 
+Nginx         : Application server 
+PHP           : Server side language 
+CI            : Codeignator freamwork
+MySql         : Dataaseused for store provide json data
+HTML & CSS    : Front end changes
+JS            : Scripting language 
+Jquery        : Use JS lib for AJAX and other operations on the frontend 
 
 ---------------------------------------------------------------------------------
 SETUP PROJECT  (follow below steps)
@@ -20,10 +20,13 @@ path: : vistaprint/writable
 
 Add host entry for domain   Eg:  127.0.0.1   vistatest.com
 
-This project tested on Nginx and ubuntu system, sharing video.
+"vistaroom.conf" file for nginx, Need to update "server_name", "root", "fastcgi_pass"  this param as per your system
+
+
+This project tested on Nginx and ubuntu system, for demo video please check "Local demo.webm".
 
 Create DB "vistaroom" and import DB script in DB
-Table name check in the script.
+Table name check in the script "vistaroom.sql" file.
 DB config details update in file "vistaroom/app/Config/Database.php"
 
 Enter the domain in the browser address bar.
