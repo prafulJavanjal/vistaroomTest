@@ -5,13 +5,13 @@ Praful test code
 REQUIREMNT
 ------------
 
-Nginx         : Application server 
-PHP           : Server side language 
-CI            : Codeignator freamwork
-MySql         : Dataaseused for store provide json data
-HTML & CSS    : Front end changes
-JS            : Scripting language 
-Jquery        : Use JS lib for AJAX and other operations on the frontend 
+Nginx         : Application server <br>
+PHP           : Server side language <br>
+CI            : Codeignator freamwork<br>
+MySql         : Dataaseused for store provide json data<br>
+HTML & CSS    : Front end changes<br>
+JS            : Scripting language <br>
+Jquery        : Use JS lib for AJAX and other operations on the frontend <br>
 
 ---------------------------------------------------------------------------------
 SETUP PROJECT  (follow below steps)
